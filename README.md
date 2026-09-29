@@ -61,19 +61,6 @@ DB_CONNECTION_STRING=mongodb+srv://USUARIO:SENHA@SEU_CLUSTER.mongodb.net/NOME_DO
 ---
 Importante ⚠️ ➜ substitua os valores pelos dados do seu próprio MongoDB Atlas.
 
-## 🛡️ Segurança
-
-O arquivo .env contém informações sensíveis, como usuário, senha e endereço de conexão do banco.
-
-Por isso, ele não deve ser enviado para o GitHub.
-
-🚨 Adicione o .env ao seu .gitignore:
-
-```text
-.env
-node_modules/
-```
-
 ## 📦 Instalação
 
 Clone o repositório:
